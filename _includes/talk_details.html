@@ -5,9 +5,7 @@
         TBD
     {% else %}
         {{ include.venue }} 
-        {% if include.link == '' or include.link == nil %}
-            [No MS-Teams Link Available Yet]
-        {% else %}
+        {% if include.link != '' and include.link != nil %}
             <a href="{{ include.link }}">[MS Teams Link]</a>
         {% endif %}
     {% endif %}
