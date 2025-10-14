@@ -1,9 +1,9 @@
-title: RHUL CS Departmental Seminars
-domain: rhul-cs-seminars.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
-url: https://rhul-cs-seminars.github.io  # the base hostname and protocol for your site, e.g. http://example.com
-email: anand.subramoney@rhul.ac.uk 
+title: RHUL CS Cake Talks
+domain: rhul-cs-cake-talks.github.io      # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+url: https://rhul-cs-cake-talks.github.io # the base hostname and protocol for your site, e.g. http://example.com
+email: chris.purdy.2023@live.rhul.ac.uk
 
-term: Autumn 24/25
+term: Winter 25
 
 exclude: 
   - README.md
@@ -12,24 +12,9 @@ exclude:
   - misc
 
 collections:
-  autumn_25:
+  winter_25:
     order: 1
-    name: "Autumn 2025"
-  summer_25:
-    order: 2
-    name: "Summer 2025"
-  spring_25:
-    order: 3
-    name: "Spring 2025"
-  autumn_24:
-    order: 4
-    name: "Autumn 2024"
-  spring_24:
-    order: 5
-    name: "Spring 2024"
-  autumn_23:
-    order: 6
-    name: "Autumn 2023"
+    name: "Winter 2025"
 
 collections_dir: seminars
 
