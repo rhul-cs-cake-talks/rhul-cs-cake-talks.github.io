@@ -1,2 +1,2 @@
-# rhul-cs-seminars.github.io
-RHUL Computer Science departmental seminars website
+# rhul-cs-cake-talks.github.io
+RHUL Computer Science Cake Talks website
