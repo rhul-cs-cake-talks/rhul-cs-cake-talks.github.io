@@ -1,0 +1,19 @@
+---
+topic: Algorithms
+type: Cake
+title: Computing Optimal Labellings for Temporal Reachability  
+speaker: Hayden Amarr
+institution: Royal Holloway, University of London
+# webpage: 
+date: 2025-12-03 14:00
+venue: McCrea 0-02
+link:
+recording:
+bio: >
+  Hayden is a first-year PhD student with research interests in temporal graph optimisation and game-theoretic problems. He is currently working on modelling networks that evolve over time, with the goal of improving efficiency and resource allocation in domains such as routing, scheduling, and optimisation-driven allocation.
+abstract: >
+  Most networks we think about are static, but real-world systems that are applicable to transportation logistics, communication, or social networks change dynamically over time. Research in temporal graphs aims to study how to model and analyse these dynamic systems. Whilst extensive research has already been conducted on static graphs, much remains to be understood about temporal graphs. Introducing a time dimension significantly alters many properties of static graphs, making it computationally more complex and intensive to perform operations that are easy on static graphs.
+  This presentation will show how we can design valid schedules that meet the complex constraints on a temporal network. It will also explain why this task is computationally infeasible for general graphs with reasonable resources, and how this infeasibility motivates solving the problem for tractable graph structures like trees.
+  A contribution of this research also includes a proof that bounds on the number of times each connection must be active to maintain complete, optimal reachability across the entire graph, where these graphs are restricted to trees.
+  Finally, we will discuss the natural next step: moving from trees to graphs containing a single cycle and exploring how the complexity of the problem is impacted by the inclusion of cycles.
+---
