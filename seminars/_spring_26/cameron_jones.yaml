@@ -1,0 +1,18 @@
+---
+topic: Algorithms
+type: Cake
+title: Backwards Symbolic Execution
+speaker: Cameron Jones
+institution: Royal Holloway, University of London
+# webpage: 
+date: 2026-02-04 14:00
+venue: Bedford 0-07
+link:
+recording:
+bio: >
+  Cameron is a CDT/PhD student working towards Automated Vulnerability Verification/Proof of Concept generation. His focus is on whole tree Symbolic Execution (SE), specifically on methods to deal with the state space explosion which prevent SE from reaching far into real world programs. Currently he is attempting to compare the effectiveness of Backwards SE against targeted forwards SE.
+abstract: >
+  Forwards Symbolic Execution (SE) is a program analysis technique used in program verification, test case generation and vulnerability discovery/verification. SE functions by "executing" a program, similarly to an Interpreter, and following all possible paths of the program but storing all variables as a symbolic representation of their values, instead of the concrete (evaluated) values. These symbolic representations of all possible paths can then be used to validate the existence (or non-existence) of conditions in the program, generate test cases for complete branch coverage or find paths with desired properties.
+
+  Duplication of the state to explore every path in a program becomes expensive fast and prevents analysis deep into programs, this is called a state space explosion. State space explosion is even more of an issue when there is a known target to be verified, since many of these states are irrelevant to the analysis but cannot always be identified as so. Backwards SE functions by starting at the target and performing SE backwards, providing the same output as forwards, however all states are relevant, just not always possible. This talk will briefly introduce SE, show how Backwards SE is different and then show some of the advantages and challenges it has compared to Forwards.
+---
