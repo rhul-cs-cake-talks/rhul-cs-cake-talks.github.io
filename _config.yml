@@ -3,7 +3,7 @@ domain: rhul-cs-cake-talks.github.io      # if you want to force HTTPS, specify 
 url: https://rhul-cs-cake-talks.github.io # the base hostname and protocol for your site, e.g. http://example.com
 email: chris.purdy.2023@live.rhul.ac.uk
 
-term: Winter 25
+term: Spring 26
 
 exclude: 
   - README.md
@@ -15,6 +15,9 @@ collections:
   winter_25:
     order: 1
     name: "Winter 2025"
+  spring_26:
+    order: 2
+    name: "Spring 2026"
 
 collections_dir: seminars
 
