@@ -1,0 +1,20 @@
+---
+topic: Algorithmic Randomness
+type: Cake
+title: E-variables and tests of randomness with respect to families of distributions
+speaker: Georgii Potapov
+institution: Royal Holloway, University of London
+# webpage: 
+date: 2026-03-04 15:00
+venue: TBA
+link:
+recording:
+bio: >
+  Georgii is a PhD student at Royal Holloway working with Yuri Kalnishkan and Vladimir Vovk. His research interests range across Learning theory, Information theory, Computability, and Computational Complexity.
+abstract: >
+  E-variables are a relatively new approach for testing statistical hypotheses that has been experiencing major development during the last several years. E-variables were originally based on a concept of Levin's (average-bounded) randomness tests studied in Algorithmic Information Theory. 
+
+  We introduce the method of e-variable-approximability which can be used to develop a general approximation technique, allowing us to construct e-variables for popular distribution classes important for applications.
+
+  We are going to discuss both this approach and how it helps us to reconnect  theory of e-variables with Algorithmic Information Theory.
+---
