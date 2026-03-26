@@ -1,0 +1,16 @@
+---
+topic: Usable Security and Privacy
+type: Cake
+title: Security, Privacy, and Accessibility in Assistive IoT Technologies for Vulnerable Groups
+speaker: Stephen Cook
+institution: Royal Holloway, University of London
+# webpage: 
+date: 2026-04-01 15:00
+venue: McCrea 1-16
+link:
+recording:
+bio: >
+  Stephen Cook is a PhD researcher in the Information Security Group at Royal Holloway, University of London, supervised by Dr Maryam Mehrnezhad. His research sits at the intersection of security, privacy, and accessibility in health and assistive IoT technologies, with a particular focus on vulnerable user groups such as people with visual impairments. His completed work includes a security and privacy analysis of commercially available assistive IoT devices, accepted with major revisions to ACM Transactions on Accessible Computing, and an ongoing Systematisation of Knowledge on development practices in the Health IoT industry.
+abstract: >
+  Health Internet of Things (HIoT) technologies including wearable biosensors, smart mobility aids, and connected medical devices are increasingly relied upon by individuals with disabilities and long-term health conditions. However, these technologies introduce significant and often overlooked risks across three interconnected dimensions: security, privacy, and accessibility. This research investigates the interplay between these three factors within HIoT ecosystems, with particular focus on users with visual impairments. Through a pilot study of four commercially available assistive IoT devices, widespread vulnerabilities were identified, including unencrypted Bluetooth traffic, insecure authentication, excessive app permissions, and pervasive accessibility non-compliance. A complementary Systematisation of Knowledge (SoK) reveals that these shortcomings are driven by systemic development challenges — including limited regulatory awareness among developers, fragmented testing environments, and hardware constraints. For the final phase of this work we plan to conduct a large-scale study on the accessibility of iOS apps, as it remains one of the most widely used OS platforms by the VI community that has yet to be explored. 
+---
