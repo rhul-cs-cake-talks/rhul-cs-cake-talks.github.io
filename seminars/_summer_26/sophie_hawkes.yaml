@@ -1,0 +1,17 @@
+---
+topic: Cryptography
+type: Cake
+title: Are Perceptual Hashes Safe to Share? Black-Box Inversion Attacks and Outsourced Private Set Intersection
+speaker: Sophie Hawkes
+institution: Royal Holloway, University of London
+# webpage: 
+date: 2026-04-01 15:00
+venue: McCrea 1-16
+link:
+recording:
+bio: >
+  Sophie is a PhD researcher at Royal Holloway, University of London, within the CDT in Cyber Security for the Everyday, supervised by Dr Christian Weinert and Dr Maryam Mehrnezhad. Her research focuses on real-world applications of cryptography and privacy-preserving technologies, particularly outsourced private set intersection and the security and privacy of perceptual hashing in tools for reporting image-based abuse. 
+abstract: >
+  Many digital systems for reporting sensitive content, such as non-consensually distributed intimate images (NCII) and other image-based sexual abuse (IBSA), rely on perceptual hashes as a robust digital fingerprint for detecting and removing images, without having to share the sensitive material itself. Our work challenges operational assumptions about the privacy of perceptual hashes, by demonstrating black-box hash inversion attacks that use Generative Adversarial Networks (GANs) to reconstruct approximate preimages from their perceptual hash values. We show these attacks are feasible with off-the-shelf technology against the most widely-deployed algorithms – PDQ (Facebook), NeuralHash (Apple), and PhotoDNA (Microsoft).
+  Since these attacks exploit the availability of perceptual hash values in plaintext, the second half of the talk will discuss (outsourced) private set intersection (PSI) as a potential mitigation, to retain the functionality of secure hash matching whilst adding an extra layer of protection to prevent the exposure of vulnerable hash. Drawing from our recent Systematisation of Knowledge (SoK) paper, I will introduce a framework of 12 properties to help navigate trade-offs, security models, and design considerations within the somewhat fragmented landscape of outsourced PSI, in which resource-intensive computations (and sometimes dataset storage) are delegated to the cloud, and discuss research gaps and further work.
+---
