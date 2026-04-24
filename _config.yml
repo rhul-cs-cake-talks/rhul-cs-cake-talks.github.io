@@ -12,11 +12,14 @@ exclude:
   - misc
 
 collections:
-  spring_26:
+  summer_26:
     order: 1
+    name: "Summer 2026"
+  spring_26:
+    order: 2
     name: "Spring 2026"
   winter_25:
-    order: 2
+    order: 3
     name: "Winter 2025"
 
 collections_dir: seminars
